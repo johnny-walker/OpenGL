@@ -9,6 +9,6 @@
 ### [GLFW]: (https://www.glfw.org/download.html)
 ### [GLM]:  (https://github.com/g-truc/glm)
 
-* copy GLAD/GLFW/GLM header files to '/usr/local/inlcude' 
+* copy GLAD/GLFW/GLM header folders to '/usr/local/inlcude' 
 * pull from Finder (reference) "./glad/src/glad.c" to xcode project
 * pull from Finder (reference) "./glfw/lib/libglfw.3.dylib" to xcode project
