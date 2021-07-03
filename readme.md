@@ -9,3 +9,4 @@
 ### [GLFW]: (https://www.glfw.org/download.html)
 ### [GLM]:  (https://github.com/g-truc/glm)
 
+* copy GLAD/GLFW/GLM header files to '/usr/local/inlcude' 
