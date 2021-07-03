@@ -31,23 +31,17 @@
 		50257205247BD4A7001532E5 /* libassimp.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libassimp.5.0.0.dylib; sourceTree = "<group>"; };
 		502DFEBC269021C0008795E0 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
 		502DFEBE269021CD008795E0 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
+		502DFEC3269024E7008795E0 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		50C613D12477C26000DC892B /* openGL05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openGL05; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C613D42477C26000DC892B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		50C613E12477C83800DC892B /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
 		50C613E22477C8BF00DC892B /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		50C613E62477CCD200DC892B /* shader1.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader1.vs; sourceTree = "<group>"; };
 		50C613E72477CCEC00DC892B /* shader1.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader1.fs; sourceTree = "<group>"; };
-		50C7F640247F53E4004701C8 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
-		50C7F641247F53E4004701C8 /* bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom.jpg; sourceTree = "<group>"; };
-		50C7F642247F53E4004701C8 /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
-		50C7F643247F53E4004701C8 /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
-		50C7F644247F53E4004701C8 /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
-		50C7F645247F53E4004701C8 /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
 		50C7F646247F544E004701C8 /* shader2.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader2.vs; sourceTree = "<group>"; };
 		50C7F647247F5460004701C8 /* shader2.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader2.fs; sourceTree = "<group>"; };
 		50C7F648247F6B28004701C8 /* shader0.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader0.vs; sourceTree = "<group>"; };
 		50C7F649247F6B41004701C8 /* shader0.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader0.fs; sourceTree = "<group>"; };
-		50C7F64A247F6C2C004701C8 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = container.jpg; path = openGL05/container.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +60,6 @@
 		50C613C82477C25F00DC892B = {
 			isa = PBXGroup;
 			children = (
-				50C7F64A247F6C2C004701C8 /* container.jpg */,
 				50C613D32477C26000DC892B /* openGL05 */,
 				50C613D22477C26000DC892B /* Products */,
 			);
@@ -83,7 +76,7 @@
 		50C613D32477C26000DC892B /* openGL05 */ = {
 			isa = PBXGroup;
 			children = (
-				50C7F63F247F53E4004701C8 /* skybox */,
+				502DFEC3269024E7008795E0 /* images */,
 				50C613E52477CCA700DC892B /* shaders */,
 				50C613D42477C26000DC892B /* main.cpp */,
 				50C613E12477C83800DC892B /* shader.h */,
@@ -108,19 +101,6 @@
 				50C7F647247F5460004701C8 /* shader2.fs */,
 			);
 			path = shaders;
-			sourceTree = "<group>";
-		};
-		50C7F63F247F53E4004701C8 /* skybox */ = {
-			isa = PBXGroup;
-			children = (
-				50C7F640247F53E4004701C8 /* back.jpg */,
-				50C7F641247F53E4004701C8 /* bottom.jpg */,
-				50C7F642247F53E4004701C8 /* front.jpg */,
-				50C7F643247F53E4004701C8 /* left.jpg */,
-				50C7F644247F53E4004701C8 /* right.jpg */,
-				50C7F645247F53E4004701C8 /* top.jpg */,
-			);
-			path = skybox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
