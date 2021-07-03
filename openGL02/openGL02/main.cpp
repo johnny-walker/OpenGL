@@ -13,13 +13,15 @@
 using namespace std;
 
 //define shaders' source paths
-string path         = string("/volumes/albert/OpenGL/openGL02/openGL02/");
-string vertex1      = path + "shaders/shader1.vs";
-string fragment1    = path + "shaders/shader1.fs";
-string vertex2      = path + "shaders/shader2.vs";
-string fragment2    = path + "shaders/shader2.fs";
-string image1       = path + "images/container.png";
-string image2       = path + "images/specular.png";
+string root         = string("/volumes/albert/OpenGL");
+string path         = root + "/openGL02/openGL02";
+
+string vertex1      = path + "/shaders/shader1.vs";
+string fragment1    = path + "/shaders/shader1.fs";
+string vertex2      = path + "/shaders/shader2.vs";
+string fragment2    = path + "/shaders/shader2.fs";
+string image1       = path + "/images/container.png";
+string image2       = path + "/images/specular.png";
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);

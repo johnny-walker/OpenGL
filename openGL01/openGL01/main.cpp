@@ -12,14 +12,13 @@
 #include "stb_image.h"
 using namespace std;
 
-//#include <unistd.h>
-//string path(getcwd(NULL,0));
+string root         = string("/volumes/albert/OpenGL");
+string path         = root + "/openGL01/openGL01";
 
-string path     = string("/Volumes/albert/OpenGL/openGL01/openGL01/");
-string vertex   = path + "shaders/vertex_shader_01.glsl";
-string fragment = path + "shaders/fragment_shader_01.glsl";
-string image1   = path + "images/wall.jpg";
-string image2   = path + "images/awesomeface.png";
+string vertex       = path + "/shaders/vertex_shader_01.glsl";
+string fragment     = path + "/shaders/fragment_shader_01.glsl";
+string image1       = path + "/images/wall.jpg";
+string image2       = path + "/images/awesomeface.png";
 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
