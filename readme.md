@@ -9,6 +9,8 @@
 ### [GLFW]: (https://www.glfw.org/download.html)
 ### [GLM]:  (https://github.com/g-truc/glm)
 
-* copy GLAD/GLFW/GLM header folders to '/usr/local/inlcude' 
+* http://www.tastones.com/zh-tw/stackoverflow/opengl/getting-started-with-opengl/setup_modern_opengl_4.1_on_macos_xcode_glfw_and_glew/
+* build GLFW, this will genearte necessary files to "/usr/local/include", "/usr/local/lib"
+* download and copy GLAD/GLM header folders to '/usr/local/inlcude' 
 * pull from Finder (reference) "./glad/src/glad.c" to xcode project
 * pull from Finder (reference) "./glfw/lib/libglfw.3.dylib" to xcode project

@@ -292,20 +292,13 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"${glew_header}",
-					"${glfw_header}",
-					/usr/local/include,
-				);
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/openGL01",
-					/usr/local/Cellar/glew/2.1.0_1/lib,
-					/usr/local/Cellar/glfw/3.3.2/lib,
-					"$(PROJECT_DIR)/openGL01/lib",
+					"${glfw_lib}",
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"${glew_lib}",
+					"$(inherited)",
 					"${glfw_lib}",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -324,21 +317,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"${glew_include}",
 					"${glfw_include}",
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/openGL01",
-					/usr/local/Cellar/glew/2.1.0_1/lib,
-					/usr/local/Cellar/glfw/3.3.2/lib,
-					"$(PROJECT_DIR)/openGL01/lib",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"${glew_lib}",
 					"${glfw_lib}",
 				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
