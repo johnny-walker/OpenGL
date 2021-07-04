@@ -1,36 +1,21 @@
 .DS_Store
-openGL01/openGL01.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-openGL01/openGL01.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-openGL01/openGL01.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-openGL01/openGL01.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-openGL01/openGL01.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+openGL01/openGL01.xcodeproj/project.xcworkspace/
+openGL01/openGL01.xcodeproj/xcuserdata/albert.xcuserdatad/
 
-openGL02/openGL02.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-openGL02/openGL02.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-openGL02/openGL02.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-openGL02/openGL02.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-openGL02/openGL02.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+openGL02/openGL02.xcodeproj/project.xcworkspace/
+openGL02/openGL02.xcodeproj/xcuserdata/albert.xcuserdatad/
 
-openGL03/openGL03.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-openGL03/openGL03.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-openGL03/openGL03.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-openGL03/openGL03.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-openGL03/openGL03.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+openGL03/openGL03.xcodeproj/project.xcworkspace/
+openGL03/openGL03.xcodeproj/xcuserdata/albert.xcuserdatad/
 
-openGL04/openGL04.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-openGL04/openGL04.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-openGL04/openGL04.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-openGL04/openGL04.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-openGL04/openGL04.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+openGL04/openGL04.xcodeproj/project.xcworkspace/
+openGL04/openGL04.xcodeproj/xcuserdata/albert.xcuserdatad/
 
-openGL05/openGL05.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-openGL05/openGL05.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-openGL05/openGL05.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-openGL05/openGL05.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-openGL05/openGL05.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+openGL05/openGL05.xcodeproj/project.xcworkspace/
+openGL05/openGL05.xcodeproj/xcuserdata/albert.xcuserdatad/
 
-helloWindow/helloWindow.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-helloWindow/helloWindow.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-helloWindow/helloWindow.xcodeproj/project.xcworkspace/xcuserdata/albert.xcuserdatad/UserInterfaceState.xcuserstate
-helloWindow/helloWindow.xcodeproj/xcuserdata/albert.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-helloWindow/helloWindow.xcodeproj/xcuserdata/albert.xcuserdatad/xcschemes/xcschememanagement.plist
+helloWindow/helloWindow.xcodeproj/project.xcworkspace/
+helloWindow/helloWindow.xcodeproj/xcuserdata/albert.xcuserdatad/
+
+helloTriangle/helloTriangle.xcodeproj/project.xcworkspace/
+helloTriangle/helloTriangle.xcodeproj/xcuserdata/
