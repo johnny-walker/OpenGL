@@ -5,6 +5,16 @@
 //  Created by albert on 2020/5/18.
 //  Copyright © 2020 com.albert. All rights reserved.
 //
+
+//include glm
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
+//include glfw
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
 //include shader class
 #include "shaders.h"
 
