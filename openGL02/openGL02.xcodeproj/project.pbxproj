@@ -269,24 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					"${glfw_header}",
-					"${glad_header}",
-					/usr/local/include,
-				);
+				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"${glfw_Header}",
-					"${glad_header}",
+					"\\/usr/local/Cellar/glfw/3.3.4/include",
 					/usr/local/include,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/openGL02",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"${glfw_lib}",
-					"${glad_lib}",
-				);
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/glfw/3.3.4/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -295,20 +284,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					"${glfw_header}",
-					"${glad_header}",
-					/usr/local/include,
-				);
+				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/openGL02",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"${glad_lib}",
-					"${glfw_lib}",
-				);
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

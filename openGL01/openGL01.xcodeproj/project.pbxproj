@@ -292,10 +292,13 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/include,
+					/usr/local/Cellar/glfw/3.3.4/include,
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"${glfw_lib}",
+					/usr/local/Cellar/glfw/3.3.4/lib,
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
@@ -322,7 +325,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"${glfw_lib}",
+					/usr/local/Cellar/glfw/3.3.4/lib,
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
