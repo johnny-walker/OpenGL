@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5018315D26969EE5001E0E74 /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5018315C26969EE4001E0E74 /* libglfw.3.dylib */; };
+		5018315E26969EE5001E0E74 /* libglfw.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5018315C26969EE4001E0E74 /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		50222E032691CF1800B8855C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50222E022691CF1800B8855C /* main.cpp */; };
 		50222E0A2691CF2D00B8855C /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 50222E092691CF2D00B8855C /* glad.c */; };
-		50222E0C2691CF4200B8855C /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50222E0B2691CF4200B8855C /* libglfw.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5018315F26969EE5001E0E74 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5018315E26969EE5001E0E74 /* libglfw.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50222DFD2691CF1800B8855C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,10 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5018315C26969EE4001E0E74 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
 		50222DFF2691CF1800B8855C /* helloTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloTriangle; sourceTree = BUILT_PRODUCTS_DIR; };
 		50222E022691CF1800B8855C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		50222E092691CF2D00B8855C /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
-		50222E0B2691CF4200B8855C /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +48,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50222E0C2691CF4200B8855C /* libglfw.3.dylib in Frameworks */,
+				5018315D26969EE5001E0E74 /* libglfw.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5018315B26969EE4001E0E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5018315C26969EE4001E0E74 /* libglfw.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50222DF62691CF1800B8855C = {
 			isa = PBXGroup;
 			children = (
 				50222E012691CF1800B8855C /* helloTriangle */,
 				50222E002691CF1800B8855C /* Products */,
+				5018315B26969EE4001E0E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +85,6 @@
 			children = (
 				50222E092691CF2D00B8855C /* glad.c */,
 				50222E022691CF1800B8855C /* main.cpp */,
-				50222E0B2691CF4200B8855C /* libglfw.3.dylib */,
 			);
 			path = helloTriangle;
 			sourceTree = "<group>";
@@ -79,6 +99,7 @@
 				50222DFB2691CF1800B8855C /* Sources */,
 				50222DFC2691CF1800B8855C /* Frameworks */,
 				50222DFD2691CF1800B8855C /* CopyFiles */,
+				5018315F26969EE5001E0E74 /* Embed Libraries */,
 			);
 			buildRules = (
 			);

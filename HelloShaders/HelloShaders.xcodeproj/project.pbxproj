@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5018315026969AA3001E0E74 /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5018314F26969AA3001E0E74 /* libglfw.3.dylib */; };
+		5018315126969AA3001E0E74 /* libglfw.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5018314F26969AA3001E0E74 /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		502BF1E62695D35300CA878F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 502BF1E52695D35300CA878F /* main.cpp */; };
 		502BF1ED2695D36200CA878F /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 502BF1EC2695D36200CA878F /* glad.c */; };
-		502BF1EF2695D37600CA878F /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 502BF1EE2695D37600CA878F /* libglfw.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5018315226969AA3001E0E74 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5018315126969AA3001E0E74 /* libglfw.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		502BF1E02695D35300CA878F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,10 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5018314F26969AA3001E0E74 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
 		502BF1E22695D35300CA878F /* HelloShaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloShaders; sourceTree = BUILT_PRODUCTS_DIR; };
 		502BF1E52695D35300CA878F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		502BF1EC2695D36200CA878F /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
-		502BF1EE2695D37600CA878F /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
 		502BF1F02695D3E700CA878F /* shaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
 		502BF1F22695D51800CA878F /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,18 +50,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				502BF1EF2695D37600CA878F /* libglfw.3.dylib in Frameworks */,
+				5018315026969AA3001E0E74 /* libglfw.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5018314E26969AA3001E0E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5018314F26969AA3001E0E74 /* libglfw.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		502BF1D92695D35300CA878F = {
 			isa = PBXGroup;
 			children = (
 				502BF1E42695D35300CA878F /* HelloShaders */,
 				502BF1E32695D35300CA878F /* Products */,
+				5018314E26969AA3001E0E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,7 +88,6 @@
 				502BF1F22695D51800CA878F /* shaders */,
 				502BF1E52695D35300CA878F /* main.cpp */,
 				502BF1F02695D3E700CA878F /* shaders.h */,
-				502BF1EE2695D37600CA878F /* libglfw.3.dylib */,
 				502BF1EC2695D36200CA878F /* glad.c */,
 			);
 			path = HelloShaders;
@@ -83,6 +103,7 @@
 				502BF1DE2695D35300CA878F /* Sources */,
 				502BF1DF2695D35300CA878F /* Frameworks */,
 				502BF1E02695D35300CA878F /* CopyFiles */,
+				5018315226969AA3001E0E74 /* Embed Libraries */,
 			);
 			buildRules = (
 			);

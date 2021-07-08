@@ -7,25 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5018315826969B69001E0E74 /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5018315726969B69001E0E74 /* libglfw.3.dylib */; };
-		5018315926969B69001E0E74 /* libglfw.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5018315726969B69001E0E74 /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		502DFEA426901492008795E0 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 502DFEA326901491008795E0 /* glad.c */; };
-		50C613D52477C26000DC892B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50C613D42477C26000DC892B /* main.cpp */; };
+		5018316D2696B928001E0E74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5018316C2696B928001E0E74 /* main.cpp */; };
+		501831772696B951001E0E74 /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 501831762696B951001E0E74 /* libglfw.3.dylib */; };
+		501831782696B951001E0E74 /* libglfw.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 501831762696B951001E0E74 /* libglfw.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5018317B2696B95D001E0E74 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 5018317A2696B95D001E0E74 /* glad.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5018315A26969B69001E0E74 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5018315926969B69001E0E74 /* libglfw.3.dylib in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50C613CF2477C26000DC892B /* CopyFiles */ = {
+		501831672696B928001E0E74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,119 +23,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		501831792696B951001E0E74 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				501831782696B951001E0E74 /* libglfw.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5018315726969B69001E0E74 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
-		502DFEA326901491008795E0 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
-		502DFEA72690158B008795E0 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		50C613D12477C26000DC892B /* openGL02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openGL02; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C613D42477C26000DC892B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		50C613E12477C83800DC892B /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
-		50C613E22477C8BF00DC892B /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
-		50C613E62477CCD200DC892B /* shader1.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader1.vs; sourceTree = "<group>"; };
-		50C613E72477CCEC00DC892B /* shader1.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader1.fs; sourceTree = "<group>"; };
-		50C613E82477CD1A00DC892B /* shader2.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader2.vs; sourceTree = "<group>"; };
-		50C613E92477CD2A00DC892B /* shader2.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader2.fs; sourceTree = "<group>"; };
+		501831692696B928001E0E74 /* helloTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloTexture; sourceTree = BUILT_PRODUCTS_DIR; };
+		5018316C2696B928001E0E74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		501831762696B951001E0E74 /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = ../glfw/lib/libglfw.3.dylib; sourceTree = "<group>"; };
+		5018317A2696B95D001E0E74 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../../glad/src/glad.c; sourceTree = "<group>"; };
+		5018317C2696BAA0001E0E74 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		5018317D2696BAAB001E0E74 /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		5018317E2696D3A0001E0E74 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		5018317F2696D518001E0E74 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50C613CE2477C26000DC892B /* Frameworks */ = {
+		501831662696B928001E0E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5018315826969B69001E0E74 /* libglfw.3.dylib in Frameworks */,
+				501831772696B951001E0E74 /* libglfw.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5018315626969B69001E0E74 /* Frameworks */ = {
+		501831602696B928001E0E74 = {
 			isa = PBXGroup;
 			children = (
-				5018315726969B69001E0E74 /* libglfw.3.dylib */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		50C613C82477C25F00DC892B = {
-			isa = PBXGroup;
-			children = (
-				50C613D32477C26000DC892B /* openGL02 */,
-				50C613D22477C26000DC892B /* Products */,
-				5018315626969B69001E0E74 /* Frameworks */,
+				5018316B2696B928001E0E74 /* helloTexture */,
+				5018316A2696B928001E0E74 /* Products */,
+				501831752696B950001E0E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		50C613D22477C26000DC892B /* Products */ = {
+		5018316A2696B928001E0E74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50C613D12477C26000DC892B /* openGL02 */,
+				501831692696B928001E0E74 /* helloTexture */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50C613D32477C26000DC892B /* openGL02 */ = {
+		5018316B2696B928001E0E74 /* helloTexture */ = {
 			isa = PBXGroup;
 			children = (
-				502DFEA72690158B008795E0 /* images */,
-				50C613E52477CCA700DC892B /* shaders */,
-				50C613D42477C26000DC892B /* main.cpp */,
-				502DFEA326901491008795E0 /* glad.c */,
-				50C613E12477C83800DC892B /* shader.h */,
-				50C613E22477C8BF00DC892B /* camera.h */,
+				5018317F2696D518001E0E74 /* images */,
+				5018317C2696BAA0001E0E74 /* shaders */,
+				5018317A2696B95D001E0E74 /* glad.c */,
+				5018316C2696B928001E0E74 /* main.cpp */,
+				5018317D2696BAAB001E0E74 /* shaders.h */,
+				5018317E2696D3A0001E0E74 /* stb_image.h */,
 			);
-			path = openGL02;
+			path = helloTexture;
 			sourceTree = "<group>";
 		};
-		50C613E52477CCA700DC892B /* shaders */ = {
+		501831752696B950001E0E74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50C613E62477CCD200DC892B /* shader1.vs */,
-				50C613E72477CCEC00DC892B /* shader1.fs */,
-				50C613E82477CD1A00DC892B /* shader2.vs */,
-				50C613E92477CD2A00DC892B /* shader2.fs */,
+				501831762696B951001E0E74 /* libglfw.3.dylib */,
 			);
-			path = shaders;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50C613D02477C26000DC892B /* openGL02 */ = {
+		501831682696B928001E0E74 /* helloTexture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50C613D82477C26000DC892B /* Build configuration list for PBXNativeTarget "openGL02" */;
+			buildConfigurationList = 501831702696B928001E0E74 /* Build configuration list for PBXNativeTarget "helloTexture" */;
 			buildPhases = (
-				50C613CD2477C26000DC892B /* Sources */,
-				50C613CE2477C26000DC892B /* Frameworks */,
-				50C613CF2477C26000DC892B /* CopyFiles */,
-				5018315A26969B69001E0E74 /* Embed Libraries */,
+				501831652696B928001E0E74 /* Sources */,
+				501831662696B928001E0E74 /* Frameworks */,
+				501831672696B928001E0E74 /* CopyFiles */,
+				501831792696B951001E0E74 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = openGL02;
-			productName = openGL02;
-			productReference = 50C613D12477C26000DC892B /* openGL02 */;
+			name = helloTexture;
+			productName = helloTexture;
+			productReference = 501831692696B928001E0E74 /* helloTexture */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50C613C92477C25F00DC892B /* Project object */ = {
+		501831612696B928001E0E74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = com.albert;
+				ORGANIZATIONNAME = albert;
 				TargetAttributes = {
-					50C613D02477C26000DC892B = {
+					501831682696B928001E0E74 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 50C613CC2477C26000DC892B /* Build configuration list for PBXProject "openGL02" */;
+			buildConfigurationList = 501831642696B928001E0E74 /* Build configuration list for PBXProject "helloTexture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,30 +140,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 50C613C82477C25F00DC892B;
-			productRefGroup = 50C613D22477C26000DC892B /* Products */;
+			mainGroup = 501831602696B928001E0E74;
+			productRefGroup = 5018316A2696B928001E0E74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50C613D02477C26000DC892B /* openGL02 */,
+				501831682696B928001E0E74 /* helloTexture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50C613CD2477C26000DC892B /* Sources */ = {
+		501831652696B928001E0E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C613D52477C26000DC892B /* main.cpp in Sources */,
-				502DFEA426901492008795E0 /* glad.c in Sources */,
+				5018316D2696B928001E0E74 /* main.cpp in Sources */,
+				5018317B2696B95D001E0E74 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		50C613D62477C26000DC892B /* Debug */ = {
+		5018316E2696B928001E0E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		50C613D72477C26000DC892B /* Release */ = {
+		5018316F2696B928001E0E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,29 +272,23 @@
 			};
 			name = Release;
 		};
-		50C613D92477C26000DC892B /* Debug */ = {
+		501831712696B928001E0E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					"\\/usr/local/Cellar/glfw/3.3.4/include",
 					/usr/local/include,
+					/usr/local/Cellar/glfw/3.3.4/include,
 				);
-				LIBRARY_SEARCH_PATHS = "";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/glfw/3.3.4/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		50C613DA2477C26000DC892B /* Release */ = {
+		501831722696B928001E0E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "";
-				"HEADER_SEARCH_PATHS[arch=*]" = "";
-				LIBRARY_SEARCH_PATHS = "";
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -316,25 +296,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50C613CC2477C26000DC892B /* Build configuration list for PBXProject "openGL02" */ = {
+		501831642696B928001E0E74 /* Build configuration list for PBXProject "helloTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50C613D62477C26000DC892B /* Debug */,
-				50C613D72477C26000DC892B /* Release */,
+				5018316E2696B928001E0E74 /* Debug */,
+				5018316F2696B928001E0E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50C613D82477C26000DC892B /* Build configuration list for PBXNativeTarget "openGL02" */ = {
+		501831702696B928001E0E74 /* Build configuration list for PBXNativeTarget "helloTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50C613D92477C26000DC892B /* Debug */,
-				50C613DA2477C26000DC892B /* Release */,
+				501831712696B928001E0E74 /* Debug */,
+				501831722696B928001E0E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50C613C92477C25F00DC892B /* Project object */;
+	rootObject = 501831612696B928001E0E74 /* Project object */;
 }
