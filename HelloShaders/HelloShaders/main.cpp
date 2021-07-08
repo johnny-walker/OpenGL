@@ -10,6 +10,7 @@ string path         = root + "/HelloShaders/HelloShaders";
 string vertex       = path + "/shaders/shader.vs";
 string fragment     = path + "/shaders/shader.fs";
 
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 
